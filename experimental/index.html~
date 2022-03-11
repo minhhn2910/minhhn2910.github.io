@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<script src="https:://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<link type="text/css" rel="stylesheet" media="screen" href="jquery-sakura.css" />
+<link rel="stylesheet" type="text/css" media="screen,print" href="style.css" />
+</head>
+<body>
+
+
+  <script src="jquery-sakura.js"></script>
+  <script>
+      // domReady
+      $(function() {
+          $.fn.sakura();
+      });
+
+      // windowLoad
+      $(window).load(function() {
+          $.fn.sakura();
+      });
+  </script>
+</body>
+</html>
